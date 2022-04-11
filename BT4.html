@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT4</title>
+</head>
+<body>
+<form style="border: 1px solid black;width: 200px;height: 200px;margin:auto;padding: 10px">
+    Nhập số:<input type="text" name="nhập số" id="a">
+    <br><br>
+    <select id="hs">
+        <option value="5" name="hs">5</option>
+        <option value="6" name="hs">6</option>
+        <option value="7" name="hs">7</option>
+        <option value="8" name="hs">8</option>
+    </select>
+    <br><br>
+    <input type="button" value="Submit" onclick="b()">
+</form>
+</body>
+</html>
+<script>
+    function b() {
+        var c = document.getElementById("a").value;
+        var d = document.getElementById("hs").value;
+        alert(c * d)
+    }
+</script>
