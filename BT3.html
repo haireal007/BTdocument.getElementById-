@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT3</title>
+</head>
+<body>
+<form style="border: 1px solid black;width: 200px;height: 200px;margin: auto;padding: 10px">
+    User:<input type="text" name="user" id="a"/>
+    <br>
+    Pass:<input type="password" name="pass" id="b"/>
+    <br>
+    Email:<input type="email" name="email" id="c"/>
+    <br>
+    Phone:<input type="phone" name="phone" id="d">
+    <br><br>
+    <input  type="button" value="Submit" onclick="e()">
+</form>
+</body>
+</html>
+<script>
+    function e() {
+        console.log("User là: " + document.getElementById("a").value);
+        console.log("Pass là: " + document.getElementById("b").value);
+        console.log("Email là: " + document.getElementById("c").value);
+        console.log("Phone là: " + document.getElementById("d").value);
+    }
+</script>
